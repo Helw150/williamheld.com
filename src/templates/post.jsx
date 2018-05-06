@@ -10,6 +10,17 @@ import "./post.css";
 
 export default class PostTemplate extends React.Component {
   render() {
+    const styles = {
+      content: { textAlign: "justify", maxWidth: "700px", margin: "0 auto" },
+      title: {
+        color: "white",
+        background: "black",
+        textAlign: "center",
+        paddingTop: "1vh",
+        paddingBottom: "2vh"
+      },
+      description: { marginTop: "-1vh", fontWeight: "normal" }
+    };
     const { slug } = this.props.pathContext;
     const postNode = this.props.data.markdownRemark;
     const post = postNode.frontmatter;
@@ -19,18 +30,22 @@ export default class PostTemplate extends React.Component {
     if (!post.category_id) {
       post.category_id = config.postDefaultCategoryID;
     }
+    console.log(post);
     return (
       <div>
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
-        <div>
+        <div style={styles.title}>
           <h1>{post.title}</h1>
-          <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+          <h4 style={styles.description}>{post.description}</h4>
           <UserInfo config={config} />
+          <PostTags tags={post.tags} />
+        </div>
+        <div style={styles.content}>
+          <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <div className="post-meta">
-            <PostTags tags={post.tags} />
             <SocialLinks postPath={slug} postNode={postNode} />
           </div>
         </div>
@@ -52,6 +67,7 @@ export const pageQuery = graphql`
         date
         category
         tags
+        description
       }
       fields {
         slug

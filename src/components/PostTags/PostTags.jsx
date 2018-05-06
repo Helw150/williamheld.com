@@ -4,17 +4,18 @@ import Link from "gatsby-link";
 
 class PostTags extends Component {
   render() {
+    const style = {
+      background: "black",
+      fontSize: "12px",
+      color: "lightgrey"
+    };
     const { tags } = this.props;
     return (
-      <div className="post-tag-container">
+      <div style={style}>
         {tags &&
           tags.map(tag => (
-            <Link
-              key={tag}
-              style={{ textDecoration: "none" }}
-              to={`/tags/${_.kebabCase(tag)}`}
-            >
-              <button>{tag}</button>
+            <Link key={tag} style={style} to={`/tags/${_.kebabCase(tag)}`}>
+              ({_.kebabCase(tag)})
             </Link>
           ))}
       </div>

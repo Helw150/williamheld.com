@@ -1,7 +1,7 @@
 ---
 title: "Creating a Personal Portfolio with Gatsby"
 date: 04/19/2017
-category: Tech
+category: tech
 tags:
     - frontend
     - react
@@ -86,9 +86,9 @@ Additionally the syntax is very simple. To update the title and description from
 
 I'm using [Prism](http://prismjs.com/). With half a Kilobyte, I am able to get syntax highlighting for all my tech blogging need.
 
-To wrap it together with Gatsby, all it takes is importing Prism into the `markdown-loader/index.js` file and adding a simple JSX function to Syntax Highlight
+To wrap it together with Gatsby, all it takes is importing Prism into the `markdown-loader/index.js` file and adding a simple JSX function to Syntax Highlight.
 
- ```
+```jsx
 var highlight = function (str, lang) {
   var value;
   if (lang && Prism.languages[lang]) {

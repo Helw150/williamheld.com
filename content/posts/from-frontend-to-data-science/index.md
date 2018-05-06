@@ -1,7 +1,7 @@
 ---
 title: "From Frontend to Data Science"
 date: 06/23/2017
-categories: Tech
+category: tech
 tags:
     - frontend
     - data science
@@ -30,7 +30,7 @@ Engineering, especially when building for the web, tends to move incredibly quic
 
 On the other hand you have Data Science where, especially for Machine Learning projects, your experiments can take hours or days and the brick by brick work-flow is impossible. Instead, the key to being productive is learning to work in parallel whenever possible. Otherwise, you'll end up like this:
 
-![A comic describing Data Scientists slacking using Machine Learning training as an excuse](/images/training.png)
+![A comic describing Data Scientists slacking using Machine Learning training as an excuse](https://github.com/Helw150/WilliamHeldV2/blob/master/gatsby-files/pages/images/training.png?raw=true)
 
 While one experiment runs, you need to be researching new methods, preparing follow-up experiments, or sleeping (running experiments overnight is a great way to parallelize). This work-flow is more like building a mud hut. You have to wait for one layer to dry before you can work on the next, but you can and should work on another wall while you wait. Otherwise you'll just sit around watching mud dry. 
 

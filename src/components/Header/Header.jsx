@@ -32,7 +32,9 @@ class Header extends React.Component {
         height: "auto",
         backgroundImage: `url(${logo})`,
         backgroundSize: "contain",
-        backgroundRepeat: "no-repeat"
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        color: "transparent"
       }
     };
     return (
@@ -43,7 +45,9 @@ class Header extends React.Component {
         <Link style={styles.link} to={"/work"}>
           Work
         </Link>
-        <Link style={styles.image} to={"/"} />
+        <Link style={styles.image} to={"/"}>
+          Home
+        </Link>
         <Link style={styles.link} to={"/code"}>
           Code
         </Link>
