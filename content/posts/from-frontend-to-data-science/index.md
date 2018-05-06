@@ -1,9 +1,13 @@
 ---
 title: "From Frontend to Data Science"
-date: 2017-06-23 00:00:00 -0400
-categories: Tech, Frontend, Data Science, Startup
+date: 06/23/2017
+categories: Tech
+tags:
+    - frontend
+    - data science
+    - startup
 description: "My experience working back to back as a Frontend engineer and a Data Scientist"
-photo: "/images/React2Tf.png"
+cover: "/images/React2Tf.png"
 ---
 
 2017 has been a year full of work for me. Fun and Fascinating work.

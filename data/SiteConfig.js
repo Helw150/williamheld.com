@@ -10,15 +10,15 @@ module.exports = {
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
   googleAnalyticsID: "UA-105844685-1", // GA tracking ID.
-  disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
+  disqusShortname: "williamheld-com", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   userName: "William Held", // Username to display in the author segment.
-  userTwitter: "@WilliamBarrHeld", // Optionally renders "Follow Me" in the UserInfo segment.
+  userTwitter: "WilliamBarrHeld", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "New York, New York", // User location to display in the author segment.
   userAvatar:
     "https://pbs.twimg.com/profile_images/984461647162077184/kT0LBxty_400x400.jpg", // User avatar to display in the author segment.
   userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+    "William Held is a software engineer and student at New York University Abu Dhabi. His experience is focused in the areas of data driven Natural Language Processing and building User Interfaces in Facebook's React.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
