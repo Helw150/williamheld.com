@@ -1,8 +1,12 @@
 {
   "assetsByChunkName": {
     "path---from-frontend-to-data-science": [
-      "path---from-frontend-to-data-science-d04231f1adf8006bb47f.js",
-      "path---from-frontend-to-data-science-d04231f1adf8006bb47f.js.map"
+      "path---from-frontend-to-data-science-fbfc5373832a541d905b.js",
+      "path---from-frontend-to-data-science-fbfc5373832a541d905b.js.map"
+    ],
+    "path---blog": [
+      "path---blog-0dcccbcbe3d7f44732bb.js",
+      "path---blog-0dcccbcbe3d7f44732bb.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -13,8 +17,8 @@
       "path---tags-play-1323c31d3afb40db21f0.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-18e694b95a4b37bf80c9.js",
-      "component---src-layouts-index-jsx-18e694b95a4b37bf80c9.js.map"
+      "component---src-layouts-index-jsx-87faa6974582a3c3263d.js",
+      "component---src-layouts-index-jsx-87faa6974582a3c3263d.js.map"
     ],
     "path---tags-startup": [
       "path---tags-startup-cc641b8ddd6c22403bfe.js",
@@ -37,25 +41,25 @@
       "path---tags-data-science-75a9ed0f90f05f62dfb0.js.map"
     ],
     "component---src-templates-category-jsx": [
-      "component---src-templates-category-jsx-3a50fee79b9519c47f96.js",
-      "component---src-templates-category-jsx-3a50fee79b9519c47f96.js.map"
+      "component---src-templates-category-jsx-0241c14da2d031fd176a.js",
+      "component---src-templates-category-jsx-0241c14da2d031fd176a.js.map"
     ],
     "path---creating-a-personal-portfolio-with-gatsby": [
-      "path---creating-a-personal-portfolio-with-gatsby-15c87aa7039cfd5ac740.js",
-      "path---creating-a-personal-portfolio-with-gatsby-15c87aa7039cfd5ac740.js.map"
+      "path---creating-a-personal-portfolio-with-gatsby-94ad31c279eaf37f530e.js",
+      "path---creating-a-personal-portfolio-with-gatsby-94ad31c279eaf37f530e.js.map"
     ],
     "path---index": [
       "path---index-0dcccbcbe3d7f44732bb.js",
       "path---index-0dcccbcbe3d7f44732bb.js.map"
     ],
     "component---src-pages-about-jsx": [
-      "component---src-pages-about-jsx-16dca089dee574aef9ce.js",
-      "component---src-pages-about-jsx-16dca089dee574aef9ce.js.map"
+      "component---src-pages-about-jsx-938fe173c9bf3e00b695.js",
+      "component---src-pages-about-jsx-938fe173c9bf3e00b695.js.map"
     ],
     "commons": [
-      "commons-7846c31fce00a527def4.js",
+      "commons-95060cffc25bf85a8030.js",
       "build-js-styles.css",
-      "commons-7846c31fce00a527def4.js.map",
+      "commons-95060cffc25bf85a8030.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -71,25 +75,29 @@
       "component---src-pages-404-jsx-1567f29ee342b6aec4e2.js.map"
     ],
     "component---src-templates-tag-jsx": [
-      "component---src-templates-tag-jsx-6d724a4bbcff12c3ea7c.js",
-      "component---src-templates-tag-jsx-6d724a4bbcff12c3ea7c.js.map"
+      "component---src-templates-tag-jsx-297ad8836b7019bbd0ab.js",
+      "component---src-templates-tag-jsx-297ad8836b7019bbd0ab.js.map"
+    ],
+    "component---src-pages-blog-jsx": [
+      "component---src-pages-blog-jsx-4c88d5de6ec44b569cc6.js",
+      "component---src-pages-blog-jsx-4c88d5de6ec44b569cc6.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-c41ad6d0da3e5b0a42a1.js",
-      "component---src-templates-post-jsx-c41ad6d0da3e5b0a42a1.js.map"
+      "component---src-templates-post-jsx-e2303caae9090e828487.js",
+      "component---src-templates-post-jsx-e2303caae9090e828487.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-3fee2160c94169451d8b.js",
-      "component---src-pages-index-jsx-3fee2160c94169451d8b.js.map"
+      "component---src-pages-index-jsx-b551acd2dc6a24fefc98.js",
+      "component---src-pages-index-jsx-b551acd2dc6a24fefc98.js.map"
     ],
     "app": [
-      "app-39ab7e8bcc1cbab79a62.js",
+      "app-70445f045eb2ee4b3ee7.js",
       "build-js-styles.css",
-      "app-39ab7e8bcc1cbab79a62.js.map",
+      "app-70445f045eb2ee4b3ee7.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
