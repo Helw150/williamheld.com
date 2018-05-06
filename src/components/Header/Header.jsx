@@ -42,15 +42,18 @@ class Header extends React.Component {
         <Link style={styles.link} to={"/blog"}>
           Blog
         </Link>
-        <Link style={styles.link} to={"/work"}>
+        <a
+          style={styles.link}
+          href="https://www.linkedin.com/in/williambarrheld/"
+        >
           Work
-        </Link>
+        </a>
         <Link style={styles.image} to={"/"}>
           Home
         </Link>
-        <Link style={styles.link} to={"/code"}>
+        <a style={styles.link} href={"https://github.com/helw150"}>
           Code
-        </Link>
+        </a>
         <Link style={styles.link} to={"/about"}>
           About
         </Link>

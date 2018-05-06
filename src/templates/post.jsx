@@ -3,6 +3,8 @@ import Helmet from "react-helmet";
 import UserInfo from "../components/UserInfo/UserInfo";
 import PostTags from "../components/PostTags/PostTags";
 import SocialLinks from "../components/SocialLinks/SocialLinks";
+import ExpandedHeader from "../components/article-components/ExpandedHeader";
+import ArticleDescription from "../components/article-components/ArticleDescription";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
@@ -11,15 +13,7 @@ import "./post.css";
 export default class PostTemplate extends React.Component {
   render() {
     const styles = {
-      content: { textAlign: "justify", maxWidth: "700px", margin: "0 auto" },
-      title: {
-        color: "white",
-        background: "black",
-        textAlign: "center",
-        paddingTop: "1vh",
-        paddingBottom: "2vh"
-      },
-      description: { marginTop: "-1vh", fontWeight: "normal" }
+      content: { textAlign: "justify", maxWidth: "700px", margin: "0 auto" }
     };
     const { slug } = this.props.pathContext;
     const postNode = this.props.data.markdownRemark;
@@ -30,19 +24,18 @@ export default class PostTemplate extends React.Component {
     if (!post.category_id) {
       post.category_id = config.postDefaultCategoryID;
     }
-    console.log(post);
     return (
       <div>
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
-        <div style={styles.title}>
+        <ExpandedHeader>
           <h1>{post.title}</h1>
-          <h4 style={styles.description}>{post.description}</h4>
+          <ArticleDescription>{post.description}</ArticleDescription>
           <UserInfo config={config} />
           <PostTags tags={post.tags} />
-        </div>
+        </ExpandedHeader>
         <div style={styles.content}>
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <div className="post-meta">
