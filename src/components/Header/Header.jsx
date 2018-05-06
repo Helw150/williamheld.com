@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
 
+import logo from "../../favicon.png";
+
 class Header extends React.Component {
   render() {
     let styles = {
@@ -8,25 +10,27 @@ class Header extends React.Component {
         top: "0",
         position: "fixed",
         boxShadow: "0 2px 10px 0 rgba(0,0,0,.75)",
-        padding: "1%",
+        padding: "1vh",
         width: "100%",
-        height: "10%",
+        height: "8vh",
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "space-between",
         background: "black"
       },
       link: {
+        display: "block",
         width: "20%",
+        height: "6vh",
+        lineHeight: "6vh",
         color: "#FFF",
         textDecoration: "none",
-        textAlign: "center",
-        marginTop: "1%"
+        textAlign: "center"
       },
       image: {
-        width: "3%",
+        width: "10vw",
         height: "auto",
-        backgroundImage: "url(/logos/logo.png)",
+        backgroundImage: `url(${logo})`,
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat"
       }

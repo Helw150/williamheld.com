@@ -48,7 +48,7 @@ export default class MainLayout extends React.Component {
           <meta name="description" content={config.siteDescription} />
         </Helmet>
         <Header />
-        <div style={{ marginTop: "5%" }} />
+        <div style={{ marginTop: "8vh" }} />
         {children()}
       </div>
     );
