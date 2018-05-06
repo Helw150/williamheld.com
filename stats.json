@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---from-frontend-to-data-science": [
-      "path---from-frontend-to-data-science-2144b7fe6f4eeb993e0e.js",
-      "path---from-frontend-to-data-science-2144b7fe6f4eeb993e0e.js.map"
+      "path---from-frontend-to-data-science-d04231f1adf8006bb47f.js",
+      "path---from-frontend-to-data-science-d04231f1adf8006bb47f.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -13,8 +13,8 @@
       "path---tags-play-1323c31d3afb40db21f0.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-6eda0ba14f5b78cc2ac8.js",
-      "component---src-layouts-index-jsx-6eda0ba14f5b78cc2ac8.js.map"
+      "component---src-layouts-index-jsx-18e694b95a4b37bf80c9.js",
+      "component---src-layouts-index-jsx-18e694b95a4b37bf80c9.js.map"
     ],
     "path---tags-startup": [
       "path---tags-startup-cc641b8ddd6c22403bfe.js",
@@ -25,8 +25,8 @@
       "path---tags-react-4cb8cc165f7120022356.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-3261f5907ca044399abe.js",
-      "path---categories-tech-3261f5907ca044399abe.js.map"
+      "path---categories-tech-5f2dbba8c076651d1805.js",
+      "path---categories-tech-5f2dbba8c076651d1805.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -41,8 +41,8 @@
       "component---src-templates-category-jsx-3a50fee79b9519c47f96.js.map"
     ],
     "path---creating-a-personal-portfolio-with-gatsby": [
-      "path---creating-a-personal-portfolio-with-gatsby-d177624b37e992e4db16.js",
-      "path---creating-a-personal-portfolio-with-gatsby-d177624b37e992e4db16.js.map"
+      "path---creating-a-personal-portfolio-with-gatsby-15c87aa7039cfd5ac740.js",
+      "path---creating-a-personal-portfolio-with-gatsby-15c87aa7039cfd5ac740.js.map"
     ],
     "path---index": [
       "path---index-0dcccbcbe3d7f44732bb.js",
@@ -79,8 +79,8 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-c918646d0c318a55ff75.js",
-      "component---src-templates-post-jsx-c918646d0c318a55ff75.js.map"
+      "component---src-templates-post-jsx-c41ad6d0da3e5b0a42a1.js",
+      "component---src-templates-post-jsx-c41ad6d0da3e5b0a42a1.js.map"
     ],
     "component---src-pages-index-jsx": [
       "component---src-pages-index-jsx-3fee2160c94169451d8b.js",
