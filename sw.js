@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/williamheld.com/app-29ae10da142d2b5bac6b.js","08da8957d2e79daad6008005fba05818"],["/williamheld.com/commons-7846c31fce00a527def4.js","3a328cff25182a90b8743cfcc66baf82"],["/williamheld.com/index.html","50f95867e9912bf0a8632aafcd2b8d90"],["/williamheld.com/offline-plugin-app-shell-fallback/index.html","4f88c12dfa3ebab620343e58c1b4454a"]];
+var precacheConfig = [["/williamheld.com/app-29ae10da142d2b5bac6b.js","70373f24becfaad66d0793630119bcbb"],["/williamheld.com/commons-7846c31fce00a527def4.js","ceaf262e51e5f50ebc7e8bf2819138a7"],["/williamheld.com/index.html","b4e6bb68fca1b46f192e9fdf6cf7aabf"],["/williamheld.com/offline-plugin-app-shell-fallback/index.html","e67eab4b2c345070535b497c1b9f781c"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 
