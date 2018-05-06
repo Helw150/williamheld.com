@@ -3,7 +3,7 @@ module.exports = {
   siteTitle: "William Held • Software Engineer • New York University Abu Dhabi", // Site title.
   siteTitleAlt: "William Held", // Alternative site title for SEO.
   siteLogo: "/logos/logo.png", // Logo used for SEO and manifest.
-  siteUrl: "williamheld.com", // Domain of your website without pathPrefix.
+  siteUrl: "http://williamheld.com", // Domain of your website without pathPrefix.
   pathPrefix: "/williamheld.com", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription:
     "William Held is a software engineer and student at New York University Abu Dhabi. His experience is focused in the areas of data driven Natural Language Processing and building User Interfaces in Facebook's React. He graduates in 2019 and will be pursuing jobs in data science and product management roles.", // Website description used for RSS feeds/meta description tag.
