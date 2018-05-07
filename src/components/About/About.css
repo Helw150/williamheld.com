@@ -6,3 +6,8 @@
     align-items: center;
     min-height: 300px;
 }
+
+h2 {
+    width: 100%;
+    text-align: center;
+}

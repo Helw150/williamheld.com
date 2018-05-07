@@ -3,7 +3,12 @@ import "./About.css";
 
 class About extends Component {
   render() {
-    const style = { textAlign: "justify", maxWidth: "700px", margin: "0 auto" };
+    const style = {
+      textAlign: "justify",
+      maxWidth: "710px",
+      margin: "0 auto",
+      padding: "10px"
+    };
     return (
       <div style={style} className="about">
         <h2>Who am I?</h2>
