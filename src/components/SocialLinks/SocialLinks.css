@@ -15,3 +15,10 @@
 .share-count {
     text-align: center;
 }
+
+.share-text {
+    margin-top: 1vh;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid;
+}

@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import UserInfo from "../components/UserInfo/UserInfo";
 import PostTags from "../components/PostTags/PostTags";
 import SocialLinks from "../components/SocialLinks/SocialLinks";
+import Disqus from "../components/Disqus/Disqus";
 import ExpandedHeader from "../components/article-components/ExpandedHeader";
 import ArticleDescription from "../components/article-components/ArticleDescription";
 import SEO from "../components/SEO/SEO";
@@ -13,7 +14,12 @@ import "./post.css";
 export default class PostTemplate extends React.Component {
   render() {
     const styles = {
-      content: { textAlign: "justify", maxWidth: "700px", margin: "0 auto" }
+      content: {
+        textAlign: "justify",
+        maxWidth: "710px",
+        margin: "0 auto",
+        padding: "10px"
+      }
     };
     const { slug } = this.props.pathContext;
     const postNode = this.props.data.markdownRemark;
@@ -40,6 +46,7 @@ export default class PostTemplate extends React.Component {
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <div className="post-meta">
             <SocialLinks postPath={slug} postNode={postNode} />
+            <Disqus postNode={postNode} />
           </div>
         </div>
       </div>
