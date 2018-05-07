@@ -17,8 +17,8 @@
       "path---tags-play-1323c31d3afb40db21f0.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-87faa6974582a3c3263d.js",
-      "component---src-layouts-index-jsx-87faa6974582a3c3263d.js.map"
+      "component---src-layouts-index-jsx-ae572878a20f28430f57.js",
+      "component---src-layouts-index-jsx-ae572878a20f28430f57.js.map"
     ],
     "path---tags-startup": [
       "path---tags-startup-cc641b8ddd6c22403bfe.js",
@@ -53,8 +53,8 @@
       "path---index-0dcccbcbe3d7f44732bb.js.map"
     ],
     "component---src-pages-about-jsx": [
-      "component---src-pages-about-jsx-938fe173c9bf3e00b695.js",
-      "component---src-pages-about-jsx-938fe173c9bf3e00b695.js.map"
+      "component---src-pages-about-jsx-ffc5d65bc5e8e12cff0b.js",
+      "component---src-pages-about-jsx-ffc5d65bc5e8e12cff0b.js.map"
     ],
     "commons": [
       "commons-95060cffc25bf85a8030.js",
@@ -95,9 +95,9 @@
       "component---src-pages-index-jsx-b551acd2dc6a24fefc98.js.map"
     ],
     "app": [
-      "app-70445f045eb2ee4b3ee7.js",
+      "app-dcbc3bec1f4bc1cc7f29.js",
       "build-js-styles.css",
-      "app-70445f045eb2ee4b3ee7.js.map",
+      "app-dcbc3bec1f4bc1cc7f29.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
