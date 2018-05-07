@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
 
+import PostCard from "../PostCard/PostCard";
+
 class PostListing extends React.Component {
   getPostList() {
     const postList = [];
@@ -19,14 +21,17 @@ class PostListing extends React.Component {
   }
   render() {
     const postList = this.getPostList();
+    const style = {
+      margin: "0 auto",
+      marginTop: "10vh",
+      maxWidth: "1000px",
+      borderTop: "1px solid #E0E0E0",
+      borderBottom: "1px solid #E0E0E0"
+    };
     return (
-      <div>
+      <div style={style}>
         {/* Your post list here. */
-        postList.map(post => (
-          <Link to={post.path} key={post.title}>
-            <h1>{post.title}</h1>
-          </Link>
-        ))}
+        postList.map(post => <PostCard post={post} />)}
       </div>
     );
   }

@@ -7,7 +7,7 @@ tags:
     - data science
     - startup
 description: "My experience working back to back as a Frontend engineer and a Data Scientist"
-cover: "/images/React2Tf.png"
+cover: "https://github.com/Helw150/WilliamHeldV2/blob/master/gatsby-files/pages/images/React2Tf.png?raw=true"
 ---
 
 2017 has been a year full of work for me. Fun and Fascinating work.
