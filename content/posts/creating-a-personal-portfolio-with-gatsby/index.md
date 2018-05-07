@@ -7,7 +7,7 @@ tags:
     - react
     - play
 description: "Learn a little bit about how and why this site was made!"
-cover: "/images/gatsby.png"
+cover: "/williamheld.com/images/gatsby.png"
 ---
 
 ## Why are you doing this?
