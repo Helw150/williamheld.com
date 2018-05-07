@@ -51,7 +51,7 @@
     margin-top: auto;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
     .blog-list-item {
         padding-top: 0.5vh;
         padding-bottom: 0.5vh;
@@ -68,7 +68,8 @@
         position: absolute;
     }
     .header {
-        font-size: 4vw;
+        font-size: 4vmin;
+        z-index: 1;
         text-align: center;
     }
     
@@ -81,6 +82,7 @@
         grid-area: image;
         height: 100%;
         width: auto;
+        z-index:0;
         margin: 0 auto;
     }
     
