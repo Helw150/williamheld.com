@@ -1,0 +1,2 @@
+webpackJsonp([63427654428684],{381:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{fields:{slug:"/creating-a-personal-portfolio-with-gatsby"},excerpt:'Why are you doing this? As part of initiative at Quorum called "Learning Lab", each week an engineer picks a topic to teach the rest of the…',timeToRead:7,frontmatter:{title:"Creating a Personal Portfolio with Gatsby",tags:["frontend","react","play"],cover:"/images/gatsby.png",date:"04/19/2017"}}}]}},pathContext:{tag:"play"}}}});
+//# sourceMappingURL=path---tags-play-c70f1b0c6852ca0ae212.js.map

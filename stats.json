@@ -1,56 +1,56 @@
 {
   "assetsByChunkName": {
     "path---from-frontend-to-data-science": [
-      "path---from-frontend-to-data-science-1eb3a0c310a76b63f137.js",
-      "path---from-frontend-to-data-science-1eb3a0c310a76b63f137.js.map"
+      "path---from-frontend-to-data-science-fbfc5373832a541d905b.js",
+      "path---from-frontend-to-data-science-fbfc5373832a541d905b.js.map"
     ],
     "path---blog": [
-      "path---blog-fb3c8689e334c967c8d8.js",
-      "path---blog-fb3c8689e334c967c8d8.js.map"
+      "path---blog-95f3bc0df2ba0c50d729.js",
+      "path---blog-95f3bc0df2ba0c50d729.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---tags-play": [
-      "path---tags-play-1323c31d3afb40db21f0.js",
-      "path---tags-play-1323c31d3afb40db21f0.js.map"
+      "path---tags-play-c70f1b0c6852ca0ae212.js",
+      "path---tags-play-c70f1b0c6852ca0ae212.js.map"
     ],
     "component---src-layouts-index-jsx": [
       "component---src-layouts-index-jsx-2482aae5e103c3ccf3fc.js",
       "component---src-layouts-index-jsx-2482aae5e103c3ccf3fc.js.map"
     ],
     "path---tags-startup": [
-      "path---tags-startup-db9acbf68382823bceb3.js",
-      "path---tags-startup-db9acbf68382823bceb3.js.map"
+      "path---tags-startup-cc641b8ddd6c22403bfe.js",
+      "path---tags-startup-cc641b8ddd6c22403bfe.js.map"
     ],
     "path---tags-react": [
-      "path---tags-react-4cb8cc165f7120022356.js",
-      "path---tags-react-4cb8cc165f7120022356.js.map"
+      "path---tags-react-9334089d2fc881052eba.js",
+      "path---tags-react-9334089d2fc881052eba.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-8a60d631729aa848a159.js",
-      "path---categories-tech-8a60d631729aa848a159.js.map"
+      "path---categories-tech-33baada6e7acefb7bdad.js",
+      "path---categories-tech-33baada6e7acefb7bdad.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "path---tags-data-science": [
-      "path---tags-data-science-5407c2280ce46dd7906a.js",
-      "path---tags-data-science-5407c2280ce46dd7906a.js.map"
+      "path---tags-data-science-75a9ed0f90f05f62dfb0.js",
+      "path---tags-data-science-75a9ed0f90f05f62dfb0.js.map"
     ],
     "component---src-templates-category-jsx": [
       "component---src-templates-category-jsx-0241c14da2d031fd176a.js",
       "component---src-templates-category-jsx-0241c14da2d031fd176a.js.map"
     ],
     "path---creating-a-personal-portfolio-with-gatsby": [
-      "path---creating-a-personal-portfolio-with-gatsby-94ad31c279eaf37f530e.js",
-      "path---creating-a-personal-portfolio-with-gatsby-94ad31c279eaf37f530e.js.map"
+      "path---creating-a-personal-portfolio-with-gatsby-e347498e4b0202a7b0f7.js",
+      "path---creating-a-personal-portfolio-with-gatsby-e347498e4b0202a7b0f7.js.map"
     ],
     "path---index": [
-      "path---index-fb3c8689e334c967c8d8.js",
-      "path---index-fb3c8689e334c967c8d8.js.map"
+      "path---index-95f3bc0df2ba0c50d729.js",
+      "path---index-95f3bc0df2ba0c50d729.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-ffc5d65bc5e8e12cff0b.js",
@@ -67,8 +67,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---tags-frontend": [
-      "path---tags-frontend-12be50f1c99560b71ec2.js",
-      "path---tags-frontend-12be50f1c99560b71ec2.js.map"
+      "path---tags-frontend-01f5456dcb22d16dbf01.js",
+      "path---tags-frontend-01f5456dcb22d16dbf01.js.map"
     ],
     "component---src-pages-404-jsx": [
       "component---src-pages-404-jsx-1567f29ee342b6aec4e2.js",
