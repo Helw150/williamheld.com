@@ -3,3 +3,10 @@
     flex-direction: column;
     justify-content: center;
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    maxWidth: 90%;
+    height: auto;
+}
