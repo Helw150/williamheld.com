@@ -1,12 +1,12 @@
 {
   "assetsByChunkName": {
     "path---from-frontend-to-data-science": [
-      "path---from-frontend-to-data-science-b5f4cc0198d7eff50e65.js",
-      "path---from-frontend-to-data-science-b5f4cc0198d7eff50e65.js.map"
+      "path---from-frontend-to-data-science-1eb3a0c310a76b63f137.js",
+      "path---from-frontend-to-data-science-1eb3a0c310a76b63f137.js.map"
     ],
     "path---blog": [
-      "path---blog-039c36b0f1b4e9016547.js",
-      "path---blog-039c36b0f1b4e9016547.js.map"
+      "path---blog-fb3c8689e334c967c8d8.js",
+      "path---blog-fb3c8689e334c967c8d8.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -21,24 +21,24 @@
       "component---src-layouts-index-jsx-2482aae5e103c3ccf3fc.js.map"
     ],
     "path---tags-startup": [
-      "path---tags-startup-3254330635fdef24e18d.js",
-      "path---tags-startup-3254330635fdef24e18d.js.map"
+      "path---tags-startup-db9acbf68382823bceb3.js",
+      "path---tags-startup-db9acbf68382823bceb3.js.map"
     ],
     "path---tags-react": [
       "path---tags-react-4cb8cc165f7120022356.js",
       "path---tags-react-4cb8cc165f7120022356.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-6d1ea5470d2c765bec72.js",
-      "path---categories-tech-6d1ea5470d2c765bec72.js.map"
+      "path---categories-tech-8a60d631729aa848a159.js",
+      "path---categories-tech-8a60d631729aa848a159.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "path---tags-data-science": [
-      "path---tags-data-science-f4750af92669cf1310a8.js",
-      "path---tags-data-science-f4750af92669cf1310a8.js.map"
+      "path---tags-data-science-5407c2280ce46dd7906a.js",
+      "path---tags-data-science-5407c2280ce46dd7906a.js.map"
     ],
     "component---src-templates-category-jsx": [
       "component---src-templates-category-jsx-0241c14da2d031fd176a.js",
@@ -49,8 +49,8 @@
       "path---creating-a-personal-portfolio-with-gatsby-94ad31c279eaf37f530e.js.map"
     ],
     "path---index": [
-      "path---index-039c36b0f1b4e9016547.js",
-      "path---index-039c36b0f1b4e9016547.js.map"
+      "path---index-fb3c8689e334c967c8d8.js",
+      "path---index-fb3c8689e334c967c8d8.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-ffc5d65bc5e8e12cff0b.js",
@@ -67,8 +67,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---tags-frontend": [
-      "path---tags-frontend-6ea5144a1f5c726bb8c8.js",
-      "path---tags-frontend-6ea5144a1f5c726bb8c8.js.map"
+      "path---tags-frontend-12be50f1c99560b71ec2.js",
+      "path---tags-frontend-12be50f1c99560b71ec2.js.map"
     ],
     "component---src-pages-404-jsx": [
       "component---src-pages-404-jsx-1567f29ee342b6aec4e2.js",
