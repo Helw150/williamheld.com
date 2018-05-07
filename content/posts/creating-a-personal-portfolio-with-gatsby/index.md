@@ -7,7 +7,7 @@ tags:
     - react
     - play
 description: "Learn a little bit about how and why this site was made!"
-cover: "https://camo.githubusercontent.com/5f9c7d37f3a89b6aac6e8b9fc577aa5dcf6fc8e5/68747470733a2f2f64337676366c703535716a6171632e636c6f756466726f6e742e6e65742f6974656d732f3434324d32693068317a303532613436305333682f6761747362792d6c6f676f2e706e673f582d436c6f75644170702d56697369746f722d49643d343336343226763d6365646335633663"
+cover: "/images/gatsby.png"
 ---
 
 ## Why are you doing this?
