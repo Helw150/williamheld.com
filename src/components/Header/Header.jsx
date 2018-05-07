@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 
 import logo from "../../favicon.png";
+import "./Header.css";
 
 class Header extends React.Component {
   render() {
@@ -18,15 +19,6 @@ class Header extends React.Component {
         justifyContent: "space-between",
         background: "black"
       },
-      link: {
-        display: "block",
-        width: "20%",
-        height: "6vh",
-        lineHeight: "6vh",
-        color: "#FFF",
-        textDecoration: "none",
-        textAlign: "center"
-      },
       image: {
         width: "10vw",
         height: "auto",
@@ -39,11 +31,11 @@ class Header extends React.Component {
     };
     return (
       <div style={styles.nav}>
-        <Link style={styles.link} to={"/blog"}>
+        <Link className="header-link" to={"/blog"}>
           Blog
         </Link>
         <a
-          style={styles.link}
+          className="header-link"
           href="https://www.linkedin.com/in/williambarrheld/"
         >
           Work
@@ -51,10 +43,10 @@ class Header extends React.Component {
         <Link style={styles.image} to={"/"}>
           Home
         </Link>
-        <a style={styles.link} href={"https://github.com/helw150"}>
+        <a className="header-link" href={"https://github.com/helw150"}>
           Code
         </a>
-        <Link style={styles.link} to={"/about"}>
+        <Link className="header-link" to={"/about"}>
           About
         </Link>
       </div>

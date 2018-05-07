@@ -18,7 +18,8 @@ export default class PostTemplate extends React.Component {
         textAlign: "justify",
         maxWidth: "710px",
         margin: "0 auto",
-        padding: "10px"
+        padding: "10px",
+        overflowX: "hidden"
       }
     };
     const { slug } = this.props.pathContext;
