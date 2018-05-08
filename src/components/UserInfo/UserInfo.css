@@ -1,0 +1,15 @@
+.follow-button {
+    position: relative;
+    height: 20px;
+    padding: 1px 8px 1px 6px;
+    background-color: #1b95e0;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.follow-button:hover {
+    text-decoration: none;
+}
