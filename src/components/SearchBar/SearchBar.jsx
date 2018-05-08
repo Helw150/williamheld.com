@@ -7,9 +7,10 @@ class SearchBar extends Component {
 
   render() {
     const style = {
+      fontSize: "14px",
       width: "20vw",
       borderRadius: "25px",
-      padding: "8px",
+      padding: "12px",
       caretColor: "#9E9E9E",
       border: "none",
       outlineWidth: 0
