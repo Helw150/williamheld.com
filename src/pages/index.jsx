@@ -7,7 +7,6 @@ import ExpandedHeader from "../components/article-components/ExpandedHeader";
 import { getPostList } from "../utils/gatsbyHelpers";
 
 import config from "../../data/SiteConfig";
-import "./index.css";
 
 class Index extends React.Component {
   render() {
