@@ -17,8 +17,8 @@
       "path---tags-play-f14142a0ead01f880ed0.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-2482aae5e103c3ccf3fc.js",
-      "component---src-layouts-index-jsx-2482aae5e103c3ccf3fc.js.map"
+      "component---src-layouts-index-jsx-a89eca8693b1bb5c3dcd.js",
+      "component---src-layouts-index-jsx-a89eca8693b1bb5c3dcd.js.map"
     ],
     "path---tags-startup": [
       "path---tags-startup-15b56f13d1f241ee9733.js",
@@ -41,8 +41,8 @@
       "path---tags-data-science-0b1dd9f1d5c79579429b.js.map"
     ],
     "component---src-templates-category-jsx": [
-      "component---src-templates-category-jsx-0241c14da2d031fd176a.js",
-      "component---src-templates-category-jsx-0241c14da2d031fd176a.js.map"
+      "component---src-templates-category-jsx-b5812c1524cce32bcd96.js",
+      "component---src-templates-category-jsx-b5812c1524cce32bcd96.js.map"
     ],
     "path---creating-a-personal-portfolio-with-gatsby": [
       "path---creating-a-personal-portfolio-with-gatsby-5ccb9825980d2d1f9ae0.js",
@@ -53,13 +53,13 @@
       "path---index-b45d04e71af2a28e092a.js.map"
     ],
     "component---src-pages-about-jsx": [
-      "component---src-pages-about-jsx-4c50798511f0f7402354.js",
-      "component---src-pages-about-jsx-4c50798511f0f7402354.js.map"
+      "component---src-pages-about-jsx-2d0f3240a42326d8f033.js",
+      "component---src-pages-about-jsx-2d0f3240a42326d8f033.js.map"
     ],
     "commons": [
-      "commons-c04973c8830565eadad1.js",
+      "commons-934b29e015ce46897894.js",
       "build-js-styles.css",
-      "commons-c04973c8830565eadad1.js.map",
+      "commons-934b29e015ce46897894.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -75,29 +75,29 @@
       "component---src-pages-404-jsx-1567f29ee342b6aec4e2.js.map"
     ],
     "component---src-templates-tag-jsx": [
-      "component---src-templates-tag-jsx-297ad8836b7019bbd0ab.js",
-      "component---src-templates-tag-jsx-297ad8836b7019bbd0ab.js.map"
+      "component---src-templates-tag-jsx-563dfa8af0a79595f5a3.js",
+      "component---src-templates-tag-jsx-563dfa8af0a79595f5a3.js.map"
     ],
     "component---src-pages-blog-jsx": [
-      "component---src-pages-blog-jsx-7345c8b8d27753cc3585.js",
-      "component---src-pages-blog-jsx-7345c8b8d27753cc3585.js.map"
+      "component---src-pages-blog-jsx-8fa457a2e1af60534c04.js",
+      "component---src-pages-blog-jsx-8fa457a2e1af60534c04.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-733e1b82c8b0c84faa8b.js",
-      "component---src-templates-post-jsx-733e1b82c8b0c84faa8b.js.map"
+      "component---src-templates-post-jsx-b0609a02da56c2752b91.js",
+      "component---src-templates-post-jsx-b0609a02da56c2752b91.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-f192ce4344d7f124af86.js",
-      "component---src-pages-index-jsx-f192ce4344d7f124af86.js.map"
+      "component---src-pages-index-jsx-8f35a40deb05117971d2.js",
+      "component---src-pages-index-jsx-8f35a40deb05117971d2.js.map"
     ],
     "app": [
-      "app-47016671afbfb3f3cb36.js",
+      "app-1c8e520cc50691c552f3.js",
       "build-js-styles.css",
-      "app-47016671afbfb3f3cb36.js.map",
+      "app-1c8e520cc50691c552f3.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
