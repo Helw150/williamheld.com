@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import "./UserInfo.css";
+import config from "../../../data/SiteConfig.js";
 
 class UserInfo extends Component {
   render() {
@@ -9,11 +10,17 @@ class UserInfo extends Component {
     return (
       <a
         className="follow-button"
-        title="Follow @WilliamBarrHeld on Twitter"
-        href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwilliamheld.com%2Fwilliamheld.com%2Fabout&amp;ref_src=twsrc%5Etfw&amp;region=follow_link&amp;screen_name=WilliamBarrHeld&amp;tw_p=followbutton"
+        title={`Follow @${userTwitter} on Twitter`}
+        href={`https://twitter.com/intent/follow?original_referer=http%3A%2F%2F${
+          config.siteUrl
+        }%2F${
+          config.siteUrl
+        }%2Fabout&amp;ref_src=twsrc%5Etfw&amp;region=follow_link&amp;screen_name=${
+          config.userTwitter
+        }&amp;tw_p=followbutton`}
       >
         <span class="label" id="l">
-          Follow @WilliamBarrHeld
+          Follow @{config.userTwitter}
         </span>
       </a>
     );

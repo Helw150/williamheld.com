@@ -1,11 +1,13 @@
 import React, { Component } from "react";
+
+import config from "../../../data/SiteConfig.js";
 import _ from "lodash";
 import Link from "gatsby-link";
 
 class PostTags extends Component {
   render() {
     const style = {
-      background: "black",
+      background: config.backgroundColor,
       fontSize: "12px",
       color: "lightgrey"
     };

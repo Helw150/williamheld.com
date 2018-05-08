@@ -8,18 +8,20 @@ class SearchBar extends Component {
   render() {
     const style = {
       fontSize: "14px",
-      width: "20vw",
+      maxWidth: "400px",
+      width: "80%",
       borderRadius: "25px",
-      padding: "12px",
+      padding: "1vh",
       caretColor: "#9E9E9E",
       border: "none",
-      outlineWidth: 0
+      outlineWidth: 0,
+      textOverflow: "ellipsis"
     };
     return (
       <input
         style={style}
         type="text"
-        placeholder="Don't see what you are looking for? Search Here!"
+        placeholder="Have something in mind? Search Here!"
         onChange={this.onChange}
       />
     );

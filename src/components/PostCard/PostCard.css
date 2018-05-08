@@ -1,11 +1,10 @@
 .blog-list-item {
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
-    height: 20vh;
     display: grid;
     grid-gap: 1vh;
     grid-template-columns: 69% 29%;
-    grid-template-rows: 30% 30% 20%;
+    grid-template-rows: 25% 35% 20%;
     grid-template-areas: "header image" "description image" "follow date";
 }
 
@@ -61,7 +60,7 @@
         grid-template-rows: 75% 15%;
         grid-template-columns: 100%;
         grid-template-areas: "image" "header";
-        width: 100vw;
+        width: 100%;
     }
     .description {
         color: transparent;

@@ -18,7 +18,7 @@ class PostListing extends React.Component {
         {/* Your post list here. */
         this.props.postEdges.length > 0 ? (
           this.props.postEdges.map(post => (
-            <PostCard post={post} key={post.path} />
+            <PostCard post={post} key={post.path} style={{ height: "20vh" }} />
           ))
         ) : (
           <div

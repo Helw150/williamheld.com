@@ -6,7 +6,7 @@ import "./PostCard.css";
 class PostCard extends React.Component {
   render() {
     return (
-      <div className="blog-list-item">
+      <div className="blog-list-item" style={this.props.style}>
         <Link className="header" to={this.props.post.path}>
           <span>{this.props.post.title}</span>
         </Link>

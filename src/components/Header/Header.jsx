@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 
+import config from "../../../data/SiteConfig";
 import logo from "../../favicon.png";
 import "./Header.css";
 
@@ -17,7 +18,7 @@ class Header extends React.Component {
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "space-between",
-        background: "black"
+        background: config.backgroundColor
       },
       image: {
         width: "10vw",

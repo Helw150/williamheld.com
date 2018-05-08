@@ -12,7 +12,7 @@ module.exports = {
   googleAnalyticsID: "UA-105844685-1", // GA tracking ID.
   disqusShortname: "williamheld-com", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
-  userName: "William Held", // Username to display in the author segment.
+  userName: "Will Held", // Username to display in the author segment.
   userTwitter: "WilliamBarrHeld", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "New York, New York", // User location to display in the author segment.
   userAvatar:
@@ -38,6 +38,6 @@ module.exports = {
     }
   ],
   copyright: "Copyright © 2017. William Held", // Copyright string for the footer of the website and RSS feed.
-  themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#e0e0e0" // Used for setting manifest background color.
+  themeColor: "white", // Used for setting manifest and progress theme colors.
+  backgroundColor: "black" // Used for setting manifest background color.
 };

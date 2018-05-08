@@ -13,7 +13,7 @@ class AboutPage extends Component {
         <Helmet title={`About | ${config.siteTitle}`} />
         <ExpandedHeader>
           <FacePicture />
-          <h1>My name is Will Held!</h1>
+          <h1>My name is {config.userName}!</h1>
           <ArticleDescription>
             If you clicked here, you must want to learn a little bit more about
             me
