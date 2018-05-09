@@ -43,15 +43,15 @@ class Index extends React.Component {
         <div className="index-content" style={styles.content}>
           <ExpandedHeader style={styles.header} />
           <div style={styles.blog}>
-            <h2>Blog</h2>
+            <h2>Newest Blog Post</h2>
             <PostCard post={getPostList(postEdges)[0]} style={styles.blog} />
           </div>
           <div style={styles.code}>
-            <h2>Code</h2>
+            <h2>Recent Code</h2>
             <GithubFeed repos={this.props.data.allGithubRepositories} />
           </div>
           <div style={styles.work}>
-            <h2>Work</h2>
+            <h2>Current Work</h2>
           </div>
         </div>
       </div>
@@ -84,7 +84,15 @@ export const pageQuery = graphql`
         }
       }
     }
-    allGithubRepositories(limit: 3, sort: { fields: [pushedAt], order: DESC }) {
+    allGithubRepositories(
+      limit: 3
+      sort: { fields: [pushedAt], order: DESC }
+      filter: {
+        isPrivate: { ne: true }
+        isFork: { ne: true }
+        description: { ne: null }
+      }
+    ) {
       edges {
         node {
           name
