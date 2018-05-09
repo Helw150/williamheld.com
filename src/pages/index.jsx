@@ -15,23 +15,22 @@ class Index extends React.Component {
       content: {
         display: "flex",
         flexWrap: "wrap",
+        alignContent: "flex-start",
         justifyContent: "space-evenly",
         height: "92vh",
         overflow: "hidden"
       },
       header: {
-        height: "50vh"
+        height: "50vh",
+        marginBottom: 0
       },
       blog: {
-        height: "30vh",
         width: "45vw"
       },
       code: {
-        height: "30vh",
         width: "25vw"
       },
       work: {
-        height: "30vh",
         width: "25vw"
       }
     };
@@ -46,12 +45,12 @@ class Index extends React.Component {
             <h2>Newest Blog Post</h2>
             <PostCard post={getPostList(postEdges)[0]} style={styles.blog} />
           </div>
+          <div style={styles.work}>
+            <h2>Current Work</h2>
+          </div>
           <div style={styles.code}>
             <h2>Recent Code</h2>
             <GithubFeed repos={this.props.data.allGithubRepositories} />
-          </div>
-          <div style={styles.work}>
-            <h2>Current Work</h2>
           </div>
         </div>
       </div>
@@ -102,6 +101,7 @@ export const pageQuery = graphql`
             edges {
               node {
                 name
+                color
               }
             }
           }

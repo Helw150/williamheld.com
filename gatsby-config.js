@@ -45,10 +45,11 @@ module.exports = {
                       text
                     }
                   }
-		  languages(first:1) {
+		  languages(first:5) {
 		    edges {
 		      node {
 			name
+                        color
 		      }
 		    }
 		  }

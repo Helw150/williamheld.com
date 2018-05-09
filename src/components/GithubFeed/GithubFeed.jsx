@@ -8,28 +8,49 @@ class GithubFeed extends React.Component {
     return (
       <div className="github-feed">
         {repos.map(repo => (
-          <div className="github-post">
-            <h3 style={{ margin: 0 }}>
+          <div className="github-post" style={{ height: "33%" }}>
+            <h3
+              style={{
+                fontSize: "2.5vh",
+                margin: "auto",
+                marginTop: 8,
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis"
+              }}
+            >
               <a href={repo.url}>{repo.name}</a>
             </h3>
             <div
               style={{
-                fontSize: 14,
+                fontSize: "1.5vh",
+                overflow: "hidden",
                 whiteSpace: "nowrap",
-                textOverflow: "ellipsis"
+                textOverflow: "ellipsis",
+                borderBottom: "1px dotted #BDBDBD"
               }}
             >
-              {repo.description}
+              <div
+                style={{
+                  overflow: "hidden",
+                  whiteSpace: "nowrap",
+                  textOverflow: "ellipsis"
+                }}
+              >
+                {repo.description}
+              </div>
+              {repo.languages.edges.map(language => (
+                <span
+                  style={{
+                    color: language.node.color,
+                    marginRight: "3px",
+                    filter: "brightness(65%)"
+                  }}
+                >
+                  {language.node.name}
+                </span>
+              ))}
             </div>
-            <p
-              style={{
-                fontSize: 14,
-                whiteSpace: "nowrap",
-                textOverflow: "ellipsis"
-              }}
-            >
-              Language: {repo.languages.edges[0].node.name}
-            </p>
           </div>
         ))}
       </div>
