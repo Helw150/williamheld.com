@@ -3,6 +3,8 @@ import Helmet from "react-helmet";
 import PostListing from "../components/PostListing/PostListing";
 import config from "../../data/SiteConfig";
 
+import { getPostList } from "../utils/gatsbyHelpers";
+
 export default class TagTemplate extends React.Component {
   render() {
     const tag = this.props.pathContext.tag;
@@ -10,7 +12,7 @@ export default class TagTemplate extends React.Component {
     return (
       <div className="tag-container">
         <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
-        <PostListing postEdges={postEdges} />
+        <PostListing postEdges={getPostList(postEdges)} />
       </div>
     );
   }

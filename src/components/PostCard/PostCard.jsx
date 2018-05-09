@@ -6,17 +6,19 @@ import "./PostCard.css";
 class PostCard extends React.Component {
   render() {
     return (
-      <div className="blog-list-item" style={this.props.style}>
-        <Link className="header" to={this.props.post.path}>
+      <Link
+        to={this.props.post.path}
+        className="blog-list-item"
+        style={this.props.style}
+      >
+        <div className="header">
           <span>{this.props.post.title}</span>
-        </Link>
+        </div>
         <span className="description">{this.props.post.excerpt}</span>
         <img src={this.props.post.cover} className="image" />
-        <Link className="follow" to={this.props.post.path}>
-          Read More
-        </Link>
+        <div className="follow">Read More</div>
         <span className="date">{this.props.post.date}</span>
-      </div>
+      </Link>
     );
   }
 }

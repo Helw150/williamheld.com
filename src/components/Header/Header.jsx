@@ -9,6 +9,7 @@ class Header extends React.Component {
   render() {
     let styles = {
       nav: {
+        zIndex: "2",
         top: "0",
         position: "fixed",
         boxShadow: "0 2px 10px 0 rgba(0,0,0,.75)",
