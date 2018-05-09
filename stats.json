@@ -17,8 +17,8 @@
       "path---tags-play-f14142a0ead01f880ed0.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-a89eca8693b1bb5c3dcd.js",
-      "component---src-layouts-index-jsx-a89eca8693b1bb5c3dcd.js.map"
+      "component---src-layouts-index-jsx-a9656e64c9fa3fa2a1e0.js",
+      "component---src-layouts-index-jsx-a9656e64c9fa3fa2a1e0.js.map"
     ],
     "path---tags-startup": [
       "path---tags-startup-15b56f13d1f241ee9733.js",
@@ -57,9 +57,9 @@
       "component---src-pages-about-jsx-2d0f3240a42326d8f033.js.map"
     ],
     "commons": [
-      "commons-b8ed749ebbea06c91a29.js",
+      "commons-5e168c5a690a967bbe60.js",
       "build-js-styles.css",
-      "commons-b8ed749ebbea06c91a29.js.map",
+      "commons-5e168c5a690a967bbe60.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -75,8 +75,8 @@
       "component---src-pages-404-jsx-1567f29ee342b6aec4e2.js.map"
     ],
     "component---src-templates-tag-jsx": [
-      "component---src-templates-tag-jsx-563dfa8af0a79595f5a3.js",
-      "component---src-templates-tag-jsx-563dfa8af0a79595f5a3.js.map"
+      "component---src-templates-tag-jsx-41e80bbde58ac17976d9.js",
+      "component---src-templates-tag-jsx-41e80bbde58ac17976d9.js.map"
     ],
     "component---src-pages-blog-jsx": [
       "component---src-pages-blog-jsx-8fa457a2e1af60534c04.js",
