@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import PostCard from "../components/PostCard/PostCard";
 import SEO from "../components/SEO/SEO";
 import ExpandedHeader from "../components/article-components/ExpandedHeader";
+import GithubFeed from "../components/GithubFeed/GithubFeed";
 
 import { getPostList } from "../utils/gatsbyHelpers";
 
@@ -47,6 +48,7 @@ class Index extends React.Component {
           </div>
           <div style={styles.code}>
             <h2>Code</h2>
+            <GithubFeed repos={this.props.data.allGithubRepositories} />
           </div>
           <div style={styles.work}>
             <h2>Work</h2>
@@ -78,6 +80,22 @@ export const pageQuery = graphql`
             tags
             cover
             date
+          }
+        }
+      }
+    }
+    allGithubRepositories(limit: 3, sort: { fields: [pushedAt], order: DESC }) {
+      edges {
+        node {
+          name
+          description
+          url
+          languages {
+            edges {
+              node {
+                name
+              }
+            }
           }
         }
       }

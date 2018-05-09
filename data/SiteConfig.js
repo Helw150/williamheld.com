@@ -14,6 +14,7 @@ module.exports = {
   postDefaultCategoryID: "Tech", // Default category for posts.
   userName: "Will Held", // Username to display in the author segment.
   userTwitter: "WilliamBarrHeld", // Optionally renders "Follow Me" in the UserInfo segment.
+  userGithub: "Helw150",
   userLocation: "New York, New York", // User location to display in the author segment.
   userAvatar:
     "https://pbs.twimg.com/profile_images/984461647162077184/kT0LBxty_400x400.jpg", // User avatar to display in the author segment.

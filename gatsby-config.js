@@ -1,4 +1,5 @@
 const config = require("./data/SiteConfig");
+const keys = require("./data/Creds");
 
 const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
 
@@ -17,6 +18,48 @@ module.exports = {
     }
   },
   plugins: [
+    {
+      resolve: "gatsby-source-github",
+      options: {
+        headers: {
+          Authorization: `Bearer ${keys.githubApiKey}`
+        },
+        queries: [
+          `{
+            user(login: ${config.userGithub}) {
+            repositories(first: 100, orderBy: {field: PUSHED_AT, direction: DESC}) {
+              edges {
+                node {
+                  name
+		  pushedAt
+		  createdAt
+		  isPrivate
+		  isFork
+                  description
+                  url
+                  stargazers {
+                    totalCount
+                  }
+                  readme: object(expression:"master:README.md"){
+                    ... on Blob{
+                      text
+                    }
+                  }
+		  languages(first:1) {
+		    edges {
+		      node {
+			name
+		      }
+		    }
+		  }
+                }
+              }
+            }
+	    }
+	  }`
+        ]
+      }
+    },
     {
       resolve: `gatsby-plugin-typography`,
       options: {

@@ -58,5 +58,5 @@ public/
 # Bundle stats
 bundle-stats.json
 
-# LinkedIn API credentials
-src/utils/linkedin/linkedin-creds.js
+# API credentials
+data/Creds.js
