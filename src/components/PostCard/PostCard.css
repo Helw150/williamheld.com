@@ -71,7 +71,7 @@
     }
     .description {
 	z-index: -1;
-        color: transparent;
+        visibility: hidden;
         position: absolute;
     }
     .header {
@@ -82,7 +82,7 @@
     
     .date {
 	z-index: -1;
-        color: transparent;
+        visibility: hidden;
         position: absolute;
     }
 
@@ -96,7 +96,7 @@
     
     .follow {
 	z-index: -1;
-        color: transparent;
+        visibility: hidden;
         position: absolute;
     }
 }
