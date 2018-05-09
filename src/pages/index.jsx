@@ -25,7 +25,8 @@ class Index extends React.Component {
         marginBottom: 0
       },
       blog: {
-        width: "45vw"
+        width: "45vw",
+        filter: "blur(0)"
       },
       code: {
         width: "25vw"
