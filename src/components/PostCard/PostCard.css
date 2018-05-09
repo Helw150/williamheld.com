@@ -63,6 +63,7 @@
         width: 100%;
     }
     .description {
+	z-index: -1;
         color: transparent;
         position: absolute;
     }
@@ -73,6 +74,7 @@
     }
     
     .date {
+	z-index: -1;
         color: transparent;
         position: absolute;
     }
@@ -86,6 +88,7 @@
     }
     
     .follow {
+	z-index: -1;
         color: transparent;
         position: absolute;
     }
