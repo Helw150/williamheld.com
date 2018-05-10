@@ -28,10 +28,6 @@
       "path---tags-react-00ed0a73ca8ebe63d3da.js",
       "path---tags-react-00ed0a73ca8ebe63d3da.js.map"
     ],
-    "path---categories-tech": [
-      "path---categories-tech-47ed02bc4d1b39afbe22.js",
-      "path---categories-tech-47ed02bc4d1b39afbe22.js.map"
-    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
@@ -40,26 +36,22 @@
       "path---tags-data-science-0b1dd9f1d5c79579429b.js",
       "path---tags-data-science-0b1dd9f1d5c79579429b.js.map"
     ],
-    "component---src-templates-category-jsx": [
-      "component---src-templates-category-jsx-b5812c1524cce32bcd96.js",
-      "component---src-templates-category-jsx-b5812c1524cce32bcd96.js.map"
-    ],
     "path---creating-a-personal-portfolio-with-gatsby": [
       "path---creating-a-personal-portfolio-with-gatsby-5ccb9825980d2d1f9ae0.js",
       "path---creating-a-personal-portfolio-with-gatsby-5ccb9825980d2d1f9ae0.js.map"
     ],
     "path---index": [
-      "path---index-0453ce796468aaf2237d.js",
-      "path---index-0453ce796468aaf2237d.js.map"
+      "path---index-df44d313bb73c341d671.js",
+      "path---index-df44d313bb73c341d671.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-2d0f3240a42326d8f033.js",
       "component---src-pages-about-jsx-2d0f3240a42326d8f033.js.map"
     ],
     "commons": [
-      "commons-5e168c5a690a967bbe60.js",
+      "commons-fe54ca218b8abaf76cf4.js",
       "build-js-styles.css",
-      "commons-5e168c5a690a967bbe60.js.map",
+      "commons-fe54ca218b8abaf76cf4.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -75,12 +67,12 @@
       "component---src-pages-404-jsx-1567f29ee342b6aec4e2.js.map"
     ],
     "component---src-templates-tag-jsx": [
-      "component---src-templates-tag-jsx-41e80bbde58ac17976d9.js",
-      "component---src-templates-tag-jsx-41e80bbde58ac17976d9.js.map"
+      "component---src-templates-tag-jsx-7242cd86d162b83f8eb7.js",
+      "component---src-templates-tag-jsx-7242cd86d162b83f8eb7.js.map"
     ],
     "component---src-pages-blog-jsx": [
-      "component---src-pages-blog-jsx-8fa457a2e1af60534c04.js",
-      "component---src-pages-blog-jsx-8fa457a2e1af60534c04.js.map"
+      "component---src-pages-blog-jsx-6f2eb1013f02d2e59926.js",
+      "component---src-pages-blog-jsx-6f2eb1013f02d2e59926.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -91,13 +83,13 @@
       "component---src-templates-post-jsx-b0609a02da56c2752b91.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-0c26f9f3b484a75ec317.js",
-      "component---src-pages-index-jsx-0c26f9f3b484a75ec317.js.map"
+      "component---src-pages-index-jsx-669c2b961b63768426b2.js",
+      "component---src-pages-index-jsx-669c2b961b63768426b2.js.map"
     ],
     "app": [
-      "app-1c8e520cc50691c552f3.js",
+      "app-d82ace706792a3005227.js",
       "build-js-styles.css",
-      "app-1c8e520cc50691c552f3.js.map",
+      "app-d82ace706792a3005227.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
