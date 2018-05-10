@@ -15,7 +15,11 @@ class PostCard extends React.Component {
           <span>{this.props.post.title}</span>
         </div>
         <span className="description">{this.props.post.excerpt}</span>
-        <img src={this.props.post.cover} className="image" />
+        <img
+          src={this.props.post.cover}
+          alt={`Simple Graphic related to ${this.props.post.tags.join(",  ")}`}
+          className="image"
+        />
         <div className="follow">Read More</div>
         <span className="date">{this.props.post.date}</span>
       </Link>
