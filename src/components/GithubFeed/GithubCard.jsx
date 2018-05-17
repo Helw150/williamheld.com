@@ -18,7 +18,7 @@ class GithubCard extends React.Component {
         </h3>
         <div
           style={{
-            fontSize: "1.5vh",
+            fontSize: "1.8vh",
             overflow: "hidden",
             whiteSpace: "nowrap",
             textOverflow: "ellipsis",
